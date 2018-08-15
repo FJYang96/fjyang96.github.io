@@ -3,12 +3,6 @@ layout: page
 excerpt: "About Me..."
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I am a first-year master's student in aerospace engineering at Stanford. Before coming to Stanford, I studied computer science at Swarthmore College, where I worked with Professor Bryce Wiedenbeck on multi-agent systems.
 
-## Current Interests and Projects:
-
-- Lorem ipsum dolor sit amet
-- Lorem ipsum dolor sit amet
-- DLorem ipsum dolor sit amet
-- Lorem ipsum dolor sit amet
-- Lorem ipsum dolor sit amet
+You can find my past projects [here](/projects); what I am up to [here](/agenda/). I blog very occasionally [here](/blog).

@@ -1,15 +1,15 @@
 # Site wide configuration
 
-title: Site Title
+title: Fengjun Yang | Personal Website
 locale: en_US
 logo: # filename of a logo image that has been placed into your images directory
 
 # Enter the following platform usernames if you would like for them to appear on your site.
 owner:
-  name: Your Name
+  name: Fengjun Yang (Jack)
   avatar: bio-photo.jpg
-  bio: "A brief description of yourself."
-  email: #emailaddress
+  bio: "Student at Stanford University"
+  email: fyang3 [at] stanford [dot] edu
   # Do not include the @ symbol in your Twitter username
   twitter: #username
   linkedin: #username
