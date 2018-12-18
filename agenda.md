@@ -4,7 +4,9 @@ title: Agenda
 excerpt: "Current Interests and Projects"
 ---
 
-## August 2018
+## August & September 2018
 - Review differential equations
-- Read 控制理论基础(Introduction to Control Theory)
+- Review high school trignometry
+- Study basic control theory
 - Setup Tenserflow
+- Build a time management tool

@@ -2,11 +2,11 @@
 - title: Home
   url: /
 
-- title: Agenda
-  url: /agenda/
-
 - title: Projects
   url: /projects/
+
+- title: Agenda
+  url: /agenda/
 
 - title: Blog
   url: /blog/
