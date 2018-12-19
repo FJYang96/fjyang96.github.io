@@ -1,74 +1,21 @@
-# Site wide configuration
+# Site settings
+title: Fengjun Yang
+# email: fyang3[attt]stanford[dottt]edu
+# description: > # this means to ignore newlines until "baseurl:"
+  # Welcome!
+# baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://fjyang.me" # the base hostname & protocol for your site
+github_username:  FJYang96
 
-title: Fengjun's Personal Website
-locale: en_US
-logo: # filename of a logo image that has been placed into your images directory
+# Build settings
+markdown: kramdown
 
-# Enter the following platform usernames if you would like for them to appear on your site.
-owner:
-  name: Fengjun Yang
-  avatar: bio-photo.jpg
-  bio: "Graduate Student in Aero/Astro @ Stanford"
-  email: fyang3 [at] stanford [dot] edu
-  # Do not include the @ symbol in your Twitter username
-  twitter: #username
-  linkedin: #username
-  github: jackyang96
-  orcid: # ID Number (ex. 0000-0000-0000-0000)
-  researchgate: #username
-  mendeley: #username
-  google:
-    plus: #username
-    analytics:
-    verify:
-    scholar: #id
-  facebook: #username
-  instagram: #username
-  bing-verify:
-  stackoverflow: #123456/username from a "https://stackoverflow.com/users/123456/username" link
-  xing: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  codepen: #username
-  disqus-shortname:
+# Other options
+permalink: blog/:year/:month/:title
+job.title: "Assistant Professor"
+excerpt_separator: "<!--more-->"
 
-# The following adjust the accents for your site. If you would like to further edit colors, fonts, font sizes, etc.
-# you may do so in _sass/variables.scss
-highlight-color: '#CC0000'
-lowlight-color: '#000'
-
-  # NOTE: If you would like your site to be licensed under a creative commons license, uncomment the 'yes' next to the type of license you wish to use.
-creative-commons:
-  cc-by: #yes
-  cc-by-nc: #yes
-
-#DO NOT EDIT BEYOND THIS POINT
-# Jekyll configuration
-
-permalink:   /:categories/:title/
-markdown:    kramdown
-highlighter: rouge
-sass:
-  sass_dir: _sass
-  style: compressed
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+# SEO stuff
+# google_author: ""
+# google_site_verification: ""
+# bing_webmastertools_id: ""
