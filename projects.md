@@ -9,7 +9,7 @@ excerpt: "Projects"
 - Watch the Berkeley DeepRL course
 
 ## Winter Break 2018
-- Set up this site using Jekyll ([write up]({%post_url 2018-12-14-Jekyll%}))
+- Set up this site using Jekyll
 - Clean up ALPaCA-Q code and publish on Github
 - Read about Imitation learning
 

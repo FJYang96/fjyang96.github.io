@@ -25,3 +25,7 @@ simulation.
 
 You can find what I am up to [here](/projects). I blog occasionally
 [here](/blog).
+
+If you are interested in collaboration, or if you want to let me know how I can
+improve this website, please feel free to reach me at
+fyang3[attt]stanford[dottt]edu.
