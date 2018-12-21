@@ -5,7 +5,11 @@ excerpt: "About Me..."
 
 ## Welcome!
 
-<img style="float: right;padding-left:30px" src="/images/bio-photo-crop.jpg">
+{% include image.html
+align="right"
+url="/images/bio-photo.jpg"
+caption="<b>FJ Yang</b> (b. 1996)<br/><b>Self Portrait (in a Grey Hoodie)</b>, 2018<br/>Oil on canvas"
+%}
 
 I am a first-year MSc. student in the [Department of Aeronautics and
 Astronautics](https://aa.stanford.edu/) at [Stanford
@@ -23,9 +27,10 @@ privilege to work with [Dr.  Yu
 Chen](http://www.k.u-tokyo.ac.jp/pros-e/person/yu_chen/yu_chen.htm) on economic
 simulation.
 
-You can find what I am up to [here](/projects). I blog occasionally
-[here](/blog).
+A note on my name. My first name is Fengjun (pronounced as *FUN-JUNE*). You can
+also call me FJ.
 
-If you are interested in collaboration, or if you want to let me know how I can
-improve this website, please feel free to reach me at
-fyang3[attt]stanford[dottt]edu.
+You can find what I am up to [here](/projects). I blog occasionally
+[here](/blog). If you are interested in collaboration, or if you want to make
+some suggestions on how I can improve this website, please feel free to reach
+me at fyang3[attt]stanford[dottt]edu.
