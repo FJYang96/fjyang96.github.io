@@ -1,22 +1,18 @@
 ---
 layout: page
-title: Projects
-excerpt: "Projects"
+title: Fengjun
+excerpt: "About Me..."
 ---
 
-## Winter Quarter 2019
-- Read Sutton's RL Book
-- Watch the Berkeley DeepRL course
+## Goals for 2019
 
-## Winter Break 2018
-- Set up this site using Jekyll
-- Clean up ALPaCA-Q code and publish on Github
-- Read about Imitation learning
+### Meditation
+`100` / `15000` minutes
 
-## Future Projects
-- NN with Bayesian Last Layer for game representation
-- Blog post about compact game representations
-- Read PRML
-- Read Anderson's Aerodynamics book
-- Optimize my vim-tmux-zsh workflow and upload dot files to Github
-- Learn Julia
+### Exercise
+- Pushups: `0`/`50`
+- Squats: `0`/`50`
+
+### RL
+- Sutton Book: `8`/`17` Chapters
+- DeepRL Course: `8`/`26` Lectures
