@@ -13,9 +13,10 @@ caption="<b>FJ Yang</b> (b. 1996)<br/><b>Self Portrait (in a Grey Hoodie)</b>, 2
 %}
 
 I am a first-year MSc. student in the [Department of Aeronautics and
-Astronautics](https://aa.stanford.edu/) at [Stanford
-University](https://www.stanford.edu/). I am broadly interested in multi-agent
-systems and reinforcement learning.
+Astronautics](https://aa.stanford.edu/) at
+[Stanford](https://www.stanford.edu/), where I am generously supported by the
+Stanford Graduate Engineering Fellowship. I am broadly interested in
+multi-agent systems and reinforcement learning.
 
 Before coming to Stanford, I graduated
 from [Swarthmore College](https://www.swarthmore.edu) with a B.A. in computer
