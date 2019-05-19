@@ -4,9 +4,8 @@ title: Blog
 permalink: /blog/
 ---
 
-I write posts from time to time. Although a lot of them are merely notes to
-myself, I do try to come back and revise some of them to make them accessible
-to other people. 
+I write posts from time to time. Most of them are merely notes to
+myself, but some might be of interest to you too.
 
 <ul class="listing">
 {% for post in site.posts %}

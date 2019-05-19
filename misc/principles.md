@@ -8,15 +8,14 @@ excerpt: "Principles"
 A description of what these are can be found
 [here]({% post_url 2019-5-6-Principles%}).
 
-## Life
 - When a decision is not important, do not waste too much time thinking. Just
     make an OK decision and be done with it.
 
-- When a restaurant has Tator tots, order it.
+- Order the recommended item / first thing on the menu at a new restaurant.
 
-## Learning
 - Try to formulate pictures of mathematical proofs.
 
-## Research
 - Given a problem, start by thinking what a naive enumeration-based approach
     would look like. Go from there.
+
+- Start research projects by clearly defining the motivation.
