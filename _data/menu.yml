@@ -1,12 +1,12 @@
 - title: "Projects"
   href: "/projects"
 
-- title: "Misc"
-  subcategories:
-    - subtitle: "New Year's Resolution Progress"
-      subhref: "/misc/progress"
-    - subtitle: "Principles"
-      subhref: "/misc/principles"
+  #- title: "Misc"
+  #  subcategories:
+  #    - subtitle: "New Year's Resolution Progress"
+  #      subhref: "/misc/progress"
+  #    - subtitle: "Principles"
+  #      subhref: "/misc/principles"
       #- subtitle: "Booklist"
       # subhref: "/misc/reads"
       #- subtitle: "Nonsense"
