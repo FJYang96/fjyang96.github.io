@@ -4,9 +4,6 @@ title: Blog
 permalink: /blog/
 ---
 
-I write posts from time to time. Most of them are merely notes to
-myself, but some might be of interest to you too.
-
 <ul class="listing">
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
