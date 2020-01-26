@@ -12,7 +12,7 @@ caption="<b>FJ Yang</b> (b. 1996)<br/><b>Self Portrait (in a Grey Hoodie)</b>, 2
 
 Hi there!
 
-My name is Fengjun Yang (杨逢君, pronounced as *FUN-JUNE YOUNG*）. I am a
+My name is Fengjun Yang (杨逢君, pronounced as *FUN-JUNE YOUNG*). I am a
 second-year master's student in Aero/Astro at Stanford University. My research
 interests lie in multi-agent systems and control theory. I am currently
 supported by a Stanford Graduate Engineering Fellowship.
