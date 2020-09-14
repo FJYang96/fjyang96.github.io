@@ -3,13 +3,9 @@ layout: page
 title: Fengjun
 excerpt: "Reading and Project Notes"
 ---
-# Dynamical Systems and Control
+The plan here is to work on (more or less) one fun project every month and
+produce some kind of deliverables. I currently have some interesting ideas in
+my stack (yep, I'm doing them in a FILO order). We'll see how it goes.
 
-# Game Theory
-I am currently working on a series of posts on fundamental concepts in game
-theory.
-{% for post in site.posts %}
-  {% if post.tags contains "gt" %}
-  - [{{post.title}}]({{post.url}})
-  {% endif %}
-{% endfor %}
+## September 2020
+Cover Hayate by Hamalspica

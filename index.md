@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fengjun
+title: Fengjun Yang 杨逢君
 excerpt: "About Me..."
 ---
 
@@ -10,21 +10,20 @@ url="/images/bio-photo.jpg"
 caption="<b>FJ Yang</b> (b. 1996)<br/><b>Self Portrait (in a Grey Hoodie)</b>, 2018<br/>MS Paint"
 %}
 
-Hi there!
+Hello and Welcome!
 
-My name is Fengjun Yang (杨逢君, pronounced as *FUN-JUNE YOUNG*). I am a
-second-year master's student in Aero/Astro at Stanford University. My research
-interests lie in multi-agent systems and control theory. I am currently
-supported by a Stanford Graduate Engineering Fellowship.
+I am a first-year Ph.D student in GRASP lab @ UPenn, advised
+by Prof. Nik Matni. I am interested in control theory, specifically in
+distributed control, robust control, and learning-based control.
 
+I received my master's in Aero/Astro from Stanford, under the generous support
+of a Stanford Graduate Engineering Fellowship. Before that, I did my undergrad
+in computer science at Swarthmore College, where I worked on algorithmic game
+theory. During undergrad, I have also spent a summer at The University of Tokyo
+as a research intern, working on simulating complex economic systems.
 
-I did my undergrad in computer science at Swarthmore College, working with
-Prof. [Bryce Wiedenbeck](https://www.cs.swarthmore.edu/~bryce/). I also spent a
-summer at The University of Tokyo as a research intern, working with [Prof. Yu
-Chen](http://www.k.u-tokyo.ac.jp/pros-e/person/yu_chen/yu_chen.htm). 
-
-Outside of work, I enjoy learning languages (currently French; in the past
-Japanese and German), playing the guitar, and hitting tennis balls.
+Outside of work, I enjoy playing the guitar, hitting tennis balls, and learning
+languages (currently French; in the past Japanese and German)
 
 ## Contact
-You can reach me at fyang3[attt]stanford[dottt]edu.
+You can reach me at fengjun[attt]seas[dottt]upenn[dottt]edu.

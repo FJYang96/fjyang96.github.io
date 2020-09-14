@@ -1,0 +1,105 @@
+I"&<p>I am a happy user of <a href="https://jekyllrb.com/">Jekyll</a>. If you are not familiar
+with Jekyll, it is a website generator that translates textfiles organized in a
+specific fashion into deployable websites. I like Jekyll because it offers an
+easy-to-use interface that hides all the technical details involved in
+conventional website building.  However, for people who are willing to get
+their hands dirty and write their own style sheets, Jekyll is also highly
+customizable.  In this post, I compile some references that were helpful for me
+when I was building this site. I hope you will find them helpful, too.</p>
+
+<h2 id="getting-started">Getting Started</h2>
+<ul>
+  <li>
+    <p><strong><a href="https://jekyllrb.com/docs/">The official quickstart guide</a></strong>: Jekyll has a
+  very helpful quickstart guide that walks you through all the basics you need to
+  know to create a working website.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://jekyllrb.com/docs/github-pages/">Guide on Github Hosting</a></strong>: Now you
+  have a website, you probably want to deploy it somewhere on the internet.
+  One way to do it is to host the website as a <a href="https://help.github.com/articles/what-is-github-pages/">Github
+  page</a>, <em>for free</em>!</p>
+  </li>
+</ul>
+
+<h2 id="customization">Customization</h2>
+<ul>
+  <li>
+    <p><strong>File Organization</strong>: If you are not interested in creating a highly
+  customized look for your blog, you probably do not have to know all that
+  much about how the files are organized. However, if you are interested in
+  writing your own style sheets, or tweaking some existing themes, it will be
+  tremendously helpful to spend a minute and read
+  <a href="https://jekyllrb.com/docs/structure/">this</a>.</p>
+  </li>
+  <li>
+    <p><strong>Themes</strong>: You can find open-source Jekyll themes
+  <a href="http://jekyllthemes.org/">here</a>. All you have to do is to download or
+  clone the repo of your desired theme. Super simple. The theme I use is
+  adapted from <a href="https://github.com/svmiller/steve-ngvb-jekyll-template">Steven Miller’s NGVB
+  theme</a>.</p>
+  </li>
+  <li>
+    <p><strong>If you are interested in building upon this theme</strong>: Small tweaks like
+  changing background or text colors should be easy to do in <code class="language-plaintext highlighter-rouge">css/main.scss</code>.
+  If you want to change some more refined details such as margins of images
+  or size of text boxes, you will have to go to the <code class="language-plaintext highlighter-rouge">_scss/</code> directory and
+  directly change the style sheets.</p>
+  </li>
+  <li>
+    <p><strong>Liquid</strong>: As you probably have read in the Jekyll quickstart
+  guide, Jekyll uses a combination of YAML front matter and Liquid to enable
+  some cross reference to posts. An example: in the front matter of post <code class="language-plaintext highlighter-rouge">A</code>,
+  you can define a property of <code class="language-plaintext highlighter-rouge">A</code> called <code class="language-plaintext highlighter-rouge">category</code> with value <code class="language-plaintext highlighter-rouge">life</code>. This
+  value can then be referenced in other pages by calling <code class="language-plaintext highlighter-rouge">{% A.category %}</code>, where <code class="language-plaintext highlighter-rouge">{% ...%}</code> symbolizes a Liquid expression. During
+  compilation, these Liquid expressions will be replaced with their actual
+  values, so they do not appear in the final HTML files. A helpful
+  introduction to the usage of Liquid in Jekyll can be found
+  <a href="https://blog.webjeda.com/jekyll-liquid/">here</a>. The official docs for
+  Liquid can be found
+  <a href="https://shopify.github.io/liquid/basics/introduction/">here</a>.</p>
+  </li>
+</ul>
+
+<h2 id="markdown">Markdown</h2>
+<ul>
+  <li>
+    <p><strong>Markdown cheatsheet</strong>: Jekyll supports multiple markup languages, and you
+  can specify the flavor you are using in <code class="language-plaintext highlighter-rouge">_config.yml</code>. (I use
+  <a href="https://kramdown.gettalong.org/">Kramdown</a>). There are many Markdown
+  cheatsheets online, and a really nice one that I use can be found
+  <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">here</a>.</p>
+  </li>
+  <li>
+    <p><strong>MathJax</strong>: What if I want to write equations, you ask?. One way to
+  do this is through MathJax. The quick start guide for MathJax can be found
+  <a href="https://www.mathjax.org/#gettingstarted">here</a>. You can
+  type equations (almost) the same way you would in LaTex. One thing to note,
+  however, is that, the default configuration I had for MathJax uses <code class="language-plaintext highlighter-rouge">$$
+  ... $$</code> to denote inline math, and <code class="language-plaintext highlighter-rouge">\\[ ... \\]</code> for new-line display,
+  although I think you can customize this if you want.</p>
+  </li>
+</ul>
+
+<h2 id="my-to-do-list">My To-Do List</h2>
+<p>There are many aspects of my blogging workflow that can be further optimized,
+and here are some of them.</p>
+<ul>
+  <li>Scripts for easy post management: I find populating the YAML front matter and
+  naming the blog post every time to be pretty annoying. This would certainly
+  be a problem if you blog a lot, and of course people have tried to write
+  scripts to automate the process. One of such attempts can be found
+  <a href="http://joshuasoileau.com/articles/2016/06/08/how-to-implement-a-bash-script-to-create-new-posts-in-jekyll.html">here</a>
+  Also, if you use Octopress, there are built-in functionalities that help
+  with creating posts.</li>
+  <li>Vimrc: I use vim as my editor. I feel there are a lot configuration that can
+  be done here to make blogging in Jekyll easier, too.</li>
+  <li>LaTeX: Is it convenient (or possible at all) to typeset in Latex and then use
+  Pandoc to translate into markdown? Haven’t got a chance to try it, but
+  heard some good things about Pandoc.</li>
+</ul>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>So, this is it folks. I hope some of the things in this post have been helpful.
+Happy blogging!</p>
+:ET
