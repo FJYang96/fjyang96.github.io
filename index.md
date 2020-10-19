@@ -13,8 +13,8 @@ caption="<b>FJ Yang</b> (b. 1996)<br/><b>Self Portrait (in a Grey Hoodie)</b>, 2
 Hello and Welcome!
 
 I am a first-year Ph.D student in GRASP lab @ UPenn, advised
-by Prof. Nik Matni. I am interested in control theory, specifically in
-distributed control, robust control, and learning-based control.
+by Prof. Nik Matni. I am interested in control theory, specifically
+distributed, learning-based control.
 
 I received my master's in Aero/Astro from Stanford, under the generous support
 of a Stanford Graduate Engineering Fellowship. Before that, I did my undergrad
@@ -23,7 +23,7 @@ theory. During undergrad, I have also spent a summer at The University of Tokyo
 as a research intern, working on simulating complex economic systems.
 
 Outside of work, I enjoy playing the guitar, hitting tennis balls, and learning
-languages (currently French; in the past Japanese and German)
+languages.
 
 ## Contact
 You can reach me at fengjun[attt]seas[dottt]upenn[dottt]edu.
