@@ -19,8 +19,8 @@ distributed, learning-based control.
 I received my master's in Aero/Astro from Stanford, under the generous support
 of a Stanford Graduate Engineering Fellowship. Before that, I did my undergrad
 in computer science at Swarthmore College, where I worked on algorithmic game
-theory. During undergrad, I have also spent a summer at The University of Tokyo
-as a research intern, working on simulating complex economic systems.
+theory. During undergrad, I also spent a summer at the University of Tokyo,
+working on simulating economic systems.
 
 Outside of work, I enjoy playing the guitar, hitting tennis balls, and learning
 languages.
