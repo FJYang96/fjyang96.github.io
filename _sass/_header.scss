@@ -2,10 +2,10 @@
  * Site header
  */
 .site-header {
-    border-top: 0px solid $grey-color-dark;
-	border-bottom: 4px solid $clemson-purple;
-    min-height: 20px;
-    background: $clemson-orange;
+    //border-top: 0px solid $grey-color-dark;
+	//border-bottom: 4px solid $clemson-purple;
+    min-height: 0px;
+    background: $header-bg;
     // Positioning context for the mobile navigation icon
     position: relative;
 
@@ -17,7 +17,7 @@
     line-height: 40px; */
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
+    float: right;
     font-weight: 500;
 		font-family: 'Titillium Web', sans-serif;
     color: $title-color;
@@ -32,7 +32,7 @@
 }
 
 .site-header .wrapper {
-	padding-top: 20px;
+	padding-top: 0px;
 	position: relative;
 }
 
@@ -43,7 +43,7 @@
 .site-nav ul {
 
 	text-align: right;
-	float: right;
+	float: left;
 	padding-top: 9px;
 	font-size: 85%;
 	letter-spacing: 1px;
@@ -62,8 +62,8 @@
 	display: inline-block;
 	height: 23px;
 	line-height: normal;
-	margin: 12px 0 0 20px;
-	padding: 0 0 2px 0;
+	margin: 5px 0 0 5px;
+	padding: 0 20px 2px 0;
 	position: relative;
 	vertical-align: top;
 }

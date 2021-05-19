@@ -1,29 +1,34 @@
 ---
 layout: page
-title: Fengjun Yang 杨逢君
+title: Fengjun Yang
 excerpt: "About Me..."
 ---
 
-{% include image.html
-align="right"
-url="/assets/bio-photo.jpg"
-caption="<b>FJ Yang</b> (b. 1996)<br/><b>Self Portrait (in a Grey Hoodie)</b>, 2018<br/>MS Paint"
-%}
+{% include indexprof.html %}
 
-Hello and Welcome!
 
-I am a first-year Ph.D student in the GRASP lab @ UPenn, advised
-by Prof. Nik Matni. My research interests are in control theory and machine
-learning.
+## About me
+<hr class="index-section-underscore">
+<p class="index-text">
+I am a Ph.D. student at the University of Pennsylvania, working on data-driven
+methods in distributed control. I am fortunate to be advised by Prof.
+<a href="https://nikolaimatni.github.io/">Nik Matni</a>. Before coming to Penn,
+I studied aero/astro at Stanford (M.Sc.) and computer science at Swarthmore
+College (B.A.).
+</p>
 
-I received my master's in Aero/Astro from Stanford, under the generous support
-of a Stanford Graduate Engineering Fellowship. Before that, I did my undergrad
-in computer science at Swarthmore College, where I worked on algorithmic game
-theory. During undergrad, I also spent a summer at the University of Tokyo
-building agent-based models of the labor market.
+## Research Interest
+<hr class="index-section-underscore">
+<p class="index-text">
+My research interest lies in the intersection of control theory, machine
+learning, and multiagent systems. Currently, I am interested in understanding
+the sample complexity of learning distributed controllers.
+</p>
 
-Outside of work, I enjoy playing the guitar, hitting tennis balls, and learning
+
+## Misc
+<hr class="index-section-underscore">
+<p class="index-text">
+Outside of work, I enjoy reading, playing the guitar, hitting tennis balls, and learning
 languages.
-
-## Contact
-You can reach me at fengjun[attt]seas[dottt]upenn[dottt]edu.
+</p>

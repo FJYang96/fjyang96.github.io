@@ -12,5 +12,11 @@
       #- subtitle: "Nonsense"
       # subhref: "/misc/nonsense"
 
-- title: "Blog"
+- title: "[Home]"
+  href: "/index"
+
+- title: "[CV]"
+  href: "/assets/cv.pdf"
+
+- title: "[Blog]"
   href: "/blog/"
