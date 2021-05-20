@@ -20,7 +20,7 @@ College (B.A.).
 ## Research Interest
 <hr class="index-section-underscore">
 <p class="index-text">
-My research interest lies in the intersection of control theory, machine
+My research interest lies at the intersection of control theory, machine
 learning, and multiagent systems. Currently, I am interested in understanding
 the sample complexity of learning distributed controllers.
 </p>
