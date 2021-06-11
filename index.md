@@ -10,11 +10,10 @@ excerpt: "About Me..."
 ## About me
 <hr class="index-section-underscore">
 <p class="index-text">
-I am a Ph.D. student at the University of Pennsylvania, working on data-driven
-methods in distributed control. I am fortunate to be advised by Prof.
-<a href="https://nikolaimatni.github.io/">Nik Matni</a>. Before coming to Penn,
-I studied aero/astro at Stanford (M.Sc.) and computer science at Swarthmore
-College (B.A.).
+I am a Ph.D. student in the GRASP Lab at the University of Pennsylvania. I am
+fortunate to be advised by <a href="https://nikolaimatni.github.io/">Nik
+Matni</a>.  Before coming to Penn, I studied aero/astro at Stanford (M.Sc.) and
+computer science at Swarthmore (B.A.).
 </p>
 
 ## Research Interest
