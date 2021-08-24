@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Other] An Incomplete List of Music References in Kafka on the Shore"
+title: "An Incomplete List of Music References in Kafka on the Shore"
 modified: 4/8/2021, 9:00:24
 tags: [other]
 category: blog
