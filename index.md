@@ -28,6 +28,6 @@ the sample complexity of learning distributed controllers.
 ## Misc
 <hr class="index-section-underscore">
 <p class="index-text">
-Outside of work, I enjoy <a href="./readings.html">reading</a>, playing the guitar, hitting tennis balls, and learning
+Outside of work, I enjoy reading, playing the guitar, hitting tennis balls, and learning
 languages.
 </p>
