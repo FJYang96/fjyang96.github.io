@@ -15,8 +15,11 @@
 - title: "[Home]"
   href: "/index"
 
-- title: "[CV]"
-  href: "/assets/cv.pdf"
+- title: "[Resume]"
+  href: "/assets/resume_20211224.pdf"
+
+  #- title: "[Publication]"
+  #href: "/publication"
 
 - title: "[Blog]"
   href: "/blog/"
