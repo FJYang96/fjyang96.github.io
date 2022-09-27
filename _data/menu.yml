@@ -18,5 +18,8 @@
 - title: "[Resume]"
   href: "/assets/resume.pdf"
 
+  #- title: "[Publication]"
+  #href: "/publication"
+
 - title: "[Blog]"
   href: "/blog/"
