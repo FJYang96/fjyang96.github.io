@@ -25,23 +25,22 @@ learning languages.
 ## Publication
 <hr class="index-section-underscore">
 ### Pre-print
-- Haoze Wu, Teruhiro Tagomori, Alexander Robey, Fengjun Yang, Nikolai Matni,
-George Pappas, Hamed Hassani, Corina Pasareanu, and Clark Barrett. 2022. Toward
-Certified Robustness Against Real-World Distribution Shifts. arXiv preprint
-arXiv:2206.03669 (2022).
-
 ### Journal
-- Carmen Amo Alonso\*, Fengjun Yang\*, and Nikolai Matni. 2022. Data-driven
+- Carmen Amo Alonso\*, **Fengjun Yang\***, and Nikolai Matni. 2022. Data-driven
 distributed and localized model predictive control. IEEE Open Journal of
 Control Systems (2022).
 
 ### Peer-Reviewed Conference
-- Fengjun Yang, Fernando Gama, Somayeh Sojoudi, and Nikolai Matni. 2022.
+- Haoze Wu\*, Teruhiro Tagomori\*, Alexander Robey\*, **Fengjun Yang\***, Nikolai Matni,
+  George Pappas, Hamed Hassani, Corina Pasareanu, and Clark Barrett. 2023. Toward
+  Certified Robustness Against Real-World Distribution Shifts. In 1st IEEE
+  Conference on Secure and Trustworthy Machine Learning (SatML)
+- **Fengjun Yang**, Fernando Gama, Somayeh Sojoudi, and Nikolai Matni. 2022.
   Distributed Optimal Control of Graph Symmetric Systems via Graph Filters. In
   2022 61st IEEE Conference on Decision and Control (CDC), IEEE, *To Appear*.
-- Fengjun Yang and Nikolai Matni. 2021. Communication topology co-design in graph
+- **Fengjun Yang** and Nikolai Matni. 2021. Communication topology co-design in graph
 recurrent neural network based distributed control. In 2021 60th IEEE
 Conference on Decision and Control (CDC), IEEE, 3619–3626.
-- Bryce Wiedenbeck, Fengjun Yang, and Michael Wellman. 2018. A regression
+- Bryce Wiedenbeck, **Fengjun Yang**, and Michael Wellman. 2018. A regression
 approach for modeling games with many symmetric players. In Proceedings of the
 AAAI Conference on Artificial Intelligence.
