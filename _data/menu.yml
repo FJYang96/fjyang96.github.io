@@ -15,11 +15,15 @@
 - title: "[Home]"
   href: "/index"
 
+- title: "[Publication]"
+  href: "https://scholar.google.com/citations?user=7FfHurgAAAAJ&hl=en"
+
 - title: "[Resume]"
   href: "/assets/resume.pdf"
 
-  #- title: "[Publication]"
-  #href: "/publication"
+- title: "[LinkedIn]"
+  href: "https://www.linkedin.com/in/fengjun-yang-920328a9"
 
 - title: "[Blog]"
   href: "/blog/"
+
