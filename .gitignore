@@ -3,3 +3,4 @@ _site/*
 .idea/*
 _drafts/*
 .jekyll-cache/*
+legacy/*

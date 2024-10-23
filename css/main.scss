@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: Georgia, Arial, sans-serif;
+$base-font-family: "Times New Roman", Times, serif;
 $base-font-size:   1.1em;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -16,7 +16,6 @@ $spacing-unit:     30px;
 $text-color:       #353535;
 $background-color: #fcfdfc;
 $brand-color:      #0077CC;
-// $gameday-sky: #109dc0;
 $header-bg:         #f0eeee;
 $clemson-purple:      #00ffff;
 $clemson-orange:      #f0eeee;
@@ -32,10 +31,10 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 
 // Width of the content area
-$content-width:    950px;
+$content-width:    750px;
 
 $on-palm:          600px;
-$on-laptop:        950px;
+$on-laptop:        750px;
 
 
 
