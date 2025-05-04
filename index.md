@@ -13,7 +13,7 @@ excerpt: "About Me..."
 
 
 ## About me
-I am a fifth-year CS Ph.D. student in the [GRASP](https://www.grasp.upenn.edu/)
+I am a final-year CS Ph.D. student in the [GRASP](https://www.grasp.upenn.edu/)
 Lab at the University of Pennsylvania, working with [Nik
 Matni](https://nikolaimatni.github.io/). During my PhD, I also interned
 at [The AI Institute](https://theaiinstitute.com/) (working with
@@ -23,6 +23,8 @@ Institute](https://usa.honda-ri.com/) (working with [Behdad
 Chalaki](https://www.linkedin.com/in/behdadchalaki/)). Before starting my PhD,
 I graduated with a MSc in aero/astro from Stanford and a BA in computer science
 from Swarthmore.
+
+** I am on the job market for Spring-Summer 2026. Please reach out if you see a fit between my background and your team! **
 
 ## Research
 My research interest lies at the intersection of machine learning, control
