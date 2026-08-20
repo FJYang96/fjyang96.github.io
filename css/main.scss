@@ -281,10 +281,14 @@ button {
 
 .writing-list a {
   display: grid;
-  grid-template-columns: 105px minmax(210px, 1.1fr) minmax(240px, 1fr) 24px;
-  gap: 26px;
-  align-items: baseline;
-  padding: 27px 0 24px;
+  grid-template-columns: 92px minmax(0, 1fr) 20px;
+  grid-template-areas:
+    "date title arrow"
+    ". description arrow";
+  column-gap: 24px;
+  row-gap: 5px;
+  align-items: start;
+  padding: 23px 0 21px;
   text-decoration: none;
 }
 
@@ -296,13 +300,24 @@ button {
   line-height: 1.55;
 }
 
+.writing-list time {
+  grid-area: date;
+}
+
 .writing-title {
-  font-size: clamp(1.35rem, 2.3vw, 1.85rem);
-  line-height: 1.08;
-  letter-spacing: -0.025em;
+  grid-area: title;
+  font-size: clamp(1.05rem, 1.3vw, 1.2rem);
+  line-height: 1.3;
+  letter-spacing: -0.012em;
+}
+
+.writing-description {
+  grid-area: description;
 }
 
 .writing-arrow {
+  grid-area: arrow;
+  padding-top: 2px;
   color: var(--gold);
   font-family: var(--sans);
 }
@@ -686,10 +701,10 @@ button {
 
 .article-header h1 {
   margin: 0;
-  font-size: clamp(3rem, 6.2vw, 5.8rem);
+  font-size: clamp(2rem, 3.8vw, 3.35rem);
   font-weight: 500;
-  line-height: 0.96;
-  letter-spacing: -0.05em;
+  line-height: 1.08;
+  letter-spacing: -0.032em;
 }
 
 .article-deck {
@@ -894,12 +909,12 @@ button {
   }
 
   .writing-list a {
-    grid-template-columns: 90px 1fr 20px;
+    grid-template-columns: 82px minmax(0, 1fr) 18px;
     gap: 18px;
   }
 
   .writing-description {
-    display: none;
+    display: inline;
   }
 
   .article-content figure {
@@ -1024,15 +1039,20 @@ button {
 
   .writing-list a {
     grid-template-columns: 1fr 22px;
+    grid-template-areas:
+      "date date"
+      "title arrow"
+      "description description";
+    column-gap: 14px;
+    row-gap: 6px;
   }
 
   .writing-list time {
-    grid-column: 1 / -1;
+    grid-area: date;
   }
 
   .writing-arrow {
-    grid-column: 2;
-    grid-row: 2;
+    grid-area: arrow;
   }
 
   .writing-empty {
