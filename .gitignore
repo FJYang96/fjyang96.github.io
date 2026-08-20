@@ -4,3 +4,6 @@ _site/*
 _drafts/*
 .jekyll-cache/*
 legacy/*
+/.bundle/
+/vendor/bundle/
+.jekyll-metadata

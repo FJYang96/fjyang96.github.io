@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+if [ "$#" -eq 0 ]; then
+  echo "Usage: bin/new-post \"Post title\""
+  exit 1
+fi
+
+title="$*"
+slug="$(printf '%s' "$title" | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9]+/-/g; s/^-+//; s/-+$//')"
+published_on="$(date +%Y-%m-%d)"
+post_path="_posts/${published_on}-${slug}.md"
+
+if [ -e "$post_path" ]; then
+  echo "Post already exists: $post_path"
+  exit 1
+fi
+
+mkdir -p _posts
+escaped_title="${title//\"/\\\"}"
+
+printf '%s\n' \
+  '---' \
+  'layout: post' \
+  "title: \"${escaped_title}\"" \
+  'description: "A short description for the writing index and link previews."' \
+  "date: ${published_on}" \
+  'math: false' \
+  'tags: []' \
+  '---' \
+  '' \
+  'Start writing here.' > "$post_path"
+
+echo "Created $post_path"

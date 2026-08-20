@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
   {% include head.html %}
-
   <body>
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    {% include header.html %}
+    <main id="main-content">
+      {{ content }}
+    </main>
+    <footer class="site-footer">
+      <div class="site-frame footer-inner">
+        <p>Fengjun Yang</p>
+        <p class="footer-note">Built for careful reading.</p>
+        <a href="#top">Back to top ↑</a>
       </div>
-    </div>
-
+    </footer>
+    <script src="{{ '/assets/js/sidenotes.js' | relative_url }}" defer></script>
+    <script src="{{ '/assets/js/site-ui.js' | relative_url }}" defer></script>
   </body>
-
 </html>
-<!-- d.s.m.s.050600.062508.030515.080516.030818 | "Baby, I'm Yours" -->

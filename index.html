@@ -1,0 +1,48 @@
+---
+layout: default
+description: Fengjun Yang writes about control theory, robotics, and related systems.
+---
+
+<div class="profile-page site-frame">
+  <div class="home-grid">
+    <aside class="about-sidebar" aria-label="Fengjun Yang">
+      <img class="profile-photo" src="{{ '/assets/selfie.jpg' | relative_url }}" alt="Fengjun Yang by a marsh at sunset">
+      <p class="profile-name">Fengjun Yang</p>
+    </aside>
+
+    <div class="home-main">
+      <div class="content-tabs" role="tablist" aria-label="Homepage sections">
+        <button id="notes-tab" type="button" role="tab" aria-selected="true" aria-controls="notes-panel">Notes <span class="tab-count">{{ site.posts | size }}</span></button>
+        <button id="about-tab" type="button" role="tab" aria-selected="false" aria-controls="about-panel" tabindex="-1">About</button>
+      </div>
+
+      <div class="profile-panels">
+        <section class="profile-panel notes-section" id="notes-panel" role="tabpanel" aria-labelledby="notes-tab">
+          {% if site.posts.size > 0 %}
+            <ol class="writing-list">
+              {% for post in site.posts %}
+                <li>
+                  <a href="{{ post.url | relative_url }}">
+                    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
+                    <span class="writing-title">{{ post.title }}</span>
+                    {% if post.description %}<span class="writing-description">{{ post.description }}</span>{% endif %}
+                    <span class="writing-arrow" aria-hidden="true">↗</span>
+                  </a>
+                </li>
+              {% endfor %}
+            </ol>
+          {% else %}
+            <div class="writing-empty">
+              <p>No notes yet.</p>
+              <span>The first one will appear here when it is ready.</span>
+            </div>
+          {% endif %}
+        </section>
+
+        <section class="profile-panel about-detail" id="about-panel" role="tabpanel" aria-labelledby="about-tab" hidden>
+          <p>I am an incoming controls engineer at Dyna. I received my Ph.D. from the <a href="https://www.grasp.upenn.edu/">GRASP Lab</a> at the University of Pennsylvania under the supervision of <a href="https://nikolaimatni.github.io/">Nik Matni</a>. I am interested in control theory and its applications to robotics.</p>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
