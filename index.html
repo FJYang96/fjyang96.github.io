@@ -8,14 +8,12 @@ description: Fengjun Yang writes about control theory, robotics, and related sys
     <aside class="about-sidebar" aria-label="Fengjun Yang">
       <img class="profile-photo" src="{{ '/assets/selfie.jpg' | relative_url }}" alt="Fengjun Yang by a marsh at sunset">
       <p class="profile-name">Fengjun Yang</p>
+      <p class="profile-role-line">Incoming Controls Engineer</p>
+      <p class="profile-role-line"><a href="dyna.co">Dyna Robotics</a></p>
+      {% include profile-links.html %}
     </aside>
 
     <div class="home-main">
-      <div class="content-tabs" role="tablist" aria-label="Homepage sections">
-        <button id="notes-tab" type="button" role="tab" aria-selected="true" aria-controls="notes-panel">Notes <span class="tab-count">{{ site.posts | size }}</span></button>
-        <button id="about-tab" type="button" role="tab" aria-selected="false" aria-controls="about-panel" tabindex="-1">About</button>
-      </div>
-
       <div class="profile-panels">
         <section class="profile-panel notes-section" id="notes-panel" role="tabpanel" aria-labelledby="notes-tab">
           {% if site.posts.size > 0 %}
@@ -40,7 +38,7 @@ description: Fengjun Yang writes about control theory, robotics, and related sys
         </section>
 
         <section class="profile-panel about-detail" id="about-panel" role="tabpanel" aria-labelledby="about-tab" hidden>
-          <p>I am an incoming controls engineer at Dyna. I received my Ph.D. from the <a href="https://www.grasp.upenn.edu/">GRASP Lab</a> at the University of Pennsylvania under the supervision of <a href="https://nikolaimatni.github.io/">Nik Matni</a>. I am interested in control theory and its applications to robotics.</p>
+          <p>I am an incoming controls engineer at Dyna. I received my Ph.D. from the <a href="https://www.grasp.upenn.edu/">GRASP Lab</a> at the University of Pennsylvania under the supervision of <a href="https://nikolaimatni.github.io/">Nik Matni</a>. I also hold a M.Sc in Aero/Astro from Stanford, and a B.A. in Computer Science from Swarthmore. I am generally interested in control theory and its applications to robotics.</p>
         </section>
       </div>
     </div>
