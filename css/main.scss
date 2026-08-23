@@ -212,7 +212,8 @@ button {
   margin: 0;
 }
 
-.content-tabs button {
+.content-tabs button,
+.content-tabs a {
   position: relative;
   flex: 0 0 auto;
   padding: 16px clamp(18px, 3vw, 34px) 14px 0;
@@ -225,15 +226,23 @@ button {
   text-transform: uppercase;
 }
 
-.content-tabs button + button {
+.content-tabs button + button,
+.content-tabs a + a {
   padding-left: clamp(18px, 3vw, 34px);
 }
 
-.content-tabs button[aria-selected="true"] {
+.content-tabs a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.content-tabs button[aria-selected="true"],
+.content-tabs a[aria-current="page"] {
   color: var(--ink);
 }
 
-.content-tabs button:focus-visible {
+.content-tabs button:focus-visible,
+.content-tabs a:focus-visible {
   outline: 2px solid var(--gold);
   outline-offset: -4px;
 }
@@ -242,12 +251,14 @@ button {
   align-self: center;
 }
 
-.header-tabs button {
+.header-tabs button,
+.header-tabs a {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-.header-tabs button[aria-selected="true"]::after {
+.header-tabs button[aria-selected="true"]::after,
+.header-tabs a[aria-current="page"]::after {
   content: "";
   position: absolute;
   right: clamp(18px, 3vw, 34px);
@@ -257,7 +268,8 @@ button {
   background: var(--gold);
 }
 
-.header-tabs button + button[aria-selected="true"]::after {
+.header-tabs button + button[aria-selected="true"]::after,
+.header-tabs a + a[aria-current="page"]::after {
   left: clamp(18px, 3vw, 34px);
 }
 
@@ -675,24 +687,14 @@ button {
 }
 
 .article-header {
-  max-width: 780px;
+  max-width: 1014px;
   margin: 0 auto;
-  padding: clamp(74px, 10vw, 135px) 0 clamp(58px, 8vw, 95px);
+  padding: clamp(29px, 4.2vw, 50px) 0 clamp(25px, 3.5vw, 41px);
   text-align: center;
 }
 
-.article-back {
-  display: inline-block;
-  margin-bottom: 60px;
-  color: var(--muted);
-  font: 600 0.68rem/1 var(--sans);
-  letter-spacing: 0.08em;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
 .eyebrow {
-  margin: 0 0 23px;
+  margin: 0 0 16px;
   color: var(--gold);
   font: 600 0.7rem/1.2 var(--sans);
   letter-spacing: 0.16em;
@@ -709,7 +711,7 @@ button {
 
 .article-deck {
   max-width: 590px;
-  margin: 30px auto 0;
+  margin: 20px auto 0;
   color: var(--muted);
   font-size: 1.18rem;
   line-height: 1.5;
@@ -719,7 +721,7 @@ button {
   display: flex;
   justify-content: center;
   gap: 9px;
-  margin: 28px 0 0;
+  margin: 20px 0 0;
   padding: 0;
   list-style: none;
 }
@@ -734,7 +736,7 @@ button {
 }
 
 .article-content {
-  width: min(100%, 680px);
+  width: min(100%, 748px);
   margin: 0 auto;
   padding-bottom: 120px;
   font-size: 1.1rem;
@@ -780,11 +782,59 @@ button {
 
 .article-content blockquote {
   margin-left: -28px;
+  margin-bottom: 0.8em;
   padding: 5px 0 5px 26px;
   border-left: 2px solid var(--gold);
   color: var(--muted);
   font-size: 1.24rem;
   font-style: italic;
+}
+
+.article-content blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+.article-content .callout {
+  margin: 0 0 1.35em;
+  padding: 1.1em 1.25em 1em;
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--gold);
+  background: rgba(232, 223, 197, 0.38);
+  color: var(--muted);
+  font-family: inherit;
+  font-style: normal;
+}
+
+.article-content .callout-title {
+  margin-bottom: 0.45em;
+  color: var(--ink);
+  font-family: inherit;
+  font-weight: 600;
+}
+
+.article-content .callout-body > :last-child {
+  margin-bottom: 0;
+}
+
+.article-content .post-figure {
+  clear: both;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.article-content .post-figure img {
+  margin-inline: auto;
+}
+
+.article-content .post-figure--left {
+  float: left;
+  margin: 0 1.5em 1em 0;
+}
+
+.article-content .post-figure--right {
+  float: right;
+  margin: 0 0 1em 1.5em;
 }
 
 .article-content code {
@@ -862,17 +912,13 @@ button {
   padding-top: 80px;
 }
 
-@media (min-width: 1080px) {
-  .article-content {
-    margin-left: 120px;
-  }
-
+@media (min-width: 1270px) {
   .article-content .sidenote {
     display: block;
     float: right;
     clear: right;
     width: 225px;
-    margin: 0.3rem -320px 1.2rem 36px;
+    margin: 0.3rem -261px 1.2rem 36px;
     color: var(--muted);
     font: 0.69rem/1.55 var(--sans);
   }
@@ -1087,16 +1133,18 @@ button {
     text-align: left;
   }
 
-  .article-back {
-    margin-bottom: 45px;
-  }
-
   .article-content {
     font-size: 1rem;
   }
 
   .article-content blockquote {
     margin-left: 0;
+  }
+
+  .article-content .post-figure--left,
+  .article-content .post-figure--right {
+    float: none;
+    margin: 0 auto 1.35em;
   }
 }
 

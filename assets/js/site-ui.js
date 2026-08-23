@@ -64,4 +64,8 @@
       activateTab(tabs[nextIndex], true);
     });
   });
+
+  var requestedTab = new URLSearchParams(window.location.search).get("tab");
+  var requestedButton = document.getElementById(requestedTab + "-tab");
+  if (requestedButton) activateTab(requestedButton, false);
 })();

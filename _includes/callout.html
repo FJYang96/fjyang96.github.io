@@ -1,0 +1,4 @@
+<aside class="callout">
+  {% if include.title %}<p class="callout-title">{{ include.title }}</p>{% endif %}
+  <div class="callout-body">{{ include.content | markdownify }}</div>
+</aside>

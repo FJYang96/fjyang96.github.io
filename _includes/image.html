@@ -1,10 +1,7 @@
-<dl id="" class="wp-caption align{{include.align}}" style="max-width: {{include.width}}px">
-
-<dt>
-    <a href="{{ include.href }}">
-        <img class="" src="{{ include.url }}" alt="{{ include.caption }}" style="display: block; margin: 0 auto;" />
-    </a>
-</dt>
-
-<dd>{{ include.caption }}</dd>
-</dl>
+{% comment %}Set wrap="true" with align="left" or align="right" to wrap article text around the figure.{% endcomment %}
+<figure class="post-figure{% if include.wrap == "true" and include.align %} post-figure--{{ include.align }}{% endif %}"{% if include.width %} style="max-width: {{ include.width }}px"{% endif %}>
+  {% if include.href %}<a href="{{ include.href }}">{% endif %}
+    <img src="{{ include.url }}" alt="{{ include.alt | default: include.caption | strip_html }}">
+  {% if include.href %}</a>{% endif %}
+  {% if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
+</figure>
