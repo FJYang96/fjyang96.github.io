@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "NumPy Fundamentals for Technical Interviews"
-description: "A compact review of array memory, broadcasting, indexing, shape manipulation, einsum, and performance pitfalls."
+description: ""
 date: 2026-08-20
 math: true
 tags: [numpy, python, interviews]

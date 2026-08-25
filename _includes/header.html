@@ -3,13 +3,13 @@
     <a class="site-identity" href="{{ '/' | relative_url }}">Fengjun's Homepage</a>
     {% if page.url == '/' %}
       <div class="content-tabs header-tabs" role="tablist" aria-label="Homepage sections">
-        <button id="notes-tab" type="button" role="tab" aria-selected="false" aria-controls="notes-panel" tabindex="-1">Notes <span class="tab-count">{{ site.posts | size }}</span></button>
         <button id="about-tab" type="button" role="tab" aria-selected="true" aria-controls="about-panel">About</button>
+        <button id="notes-tab" type="button" role="tab" aria-selected="false" aria-controls="notes-panel" tabindex="-1">Notes <span class="tab-count">{{ site.posts | size }}</span></button>
       </div>
     {% else %}
       <nav class="content-tabs header-tabs" aria-label="Homepage sections">
-        <a href="{{ '/?tab=notes' | relative_url }}" aria-current="page">Notes <span class="tab-count">{{ site.posts | size }}</span></a>
         <a href="{{ '/?tab=about' | relative_url }}">About</a>
+        <a href="{{ '/?tab=notes' | relative_url }}" aria-current="page">Notes <span class="tab-count">{{ site.posts | size }}</span></a>
       </nav>
     {% endif %}
   </div>
